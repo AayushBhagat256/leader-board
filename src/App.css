@@ -14,3 +14,8 @@
   text-align: center;
   margin-left: 2vw;
 }
+.btn{
+  background: transparent;
+  font-family: 'Harry Potter', sans-serif;
+  /* font-size: 1.5em; */
+}
