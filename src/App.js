@@ -13,19 +13,20 @@ import Tab2 from './components/Tab2';
 import Tab3 from './components/Tab3';
 import Tab4 from './components/Tab4';
 import Tab5 from './components/Tab5';
+import Sponcers from './components/Sponcers';
 
 function App() {
   return (
     <Router>
     <div>
       <Navbar />
-      
+      <Sponcers/>
         <div className="paths">
-          <div className="path1 mx-1"><Link to="/tab1"><button type="button" class="btn btn-primary">All Teams</button></Link></div>
-          <div className="path2 mx-1"><Link to="/tab2"><button type="button" class="btn btn-primary">House 1</button></Link></div>
-          <div className="path3 mx-1"><Link to="/tab3"><button type="button" class="btn btn-primary">House 2</button></Link></div>
-          <div className="path4 mx-1"><Link to="/tab4"><button type="button" class="btn btn-primary">House 3</button></Link></div>
-          <div className="path5 mx-1"><Link to="/tab5"><button type="button" class="btn btn-primary">House 4</button></Link></div>
+          <div className="path1 mx-1"><Link to="/tab1"><button type="button" class="btn btn-dark">All Teams</button></Link></div>
+          <div className="path2 mx-1"><Link to="/tab2"><button type="button" class="btn btn-dark">House 1</button></Link></div>
+          <div className="path3 mx-1"><Link to="/tab3"><button type="button" class="btn btn-dark">House 2</button></Link></div>
+          <div className="path4 mx-1"><Link to="/tab4"><button type="button" class="btn btn-dark">House 3</button></Link></div>
+          <div className="path5 mx-1"><Link to="/tab5"><button type="button" class="btn btn-dark">House 4</button></Link></div>
         
       </div>
       <div className="containerr1 mx-0">
