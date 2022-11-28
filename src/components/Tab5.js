@@ -32,7 +32,7 @@ function Tab5() {
         Re-Quest     Leaderboard
       </div>
       <div className="headingname">
-        YELLOW HOUSE
+        Hufflepuff
       </div>
       </div>
       <div className="container">

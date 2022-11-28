@@ -58,8 +58,8 @@ function Tab1() {
               display?.map((row) => (
                 <tr>
                   <th scope="row">{row[0]}</th>
-                  <td>{row[1]}</td>
-                  <td>{row[2]}</td>
+                  <th>{row[1]}</th>
+                  <th>{row[2]}</th>
                 </tr>
               ))
             }

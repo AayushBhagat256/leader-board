@@ -1,11 +1,17 @@
 import React from 'react'
+import Sylogo from './synapselogo.jpg'
+import './Navbar.css'
 
 function Navbar() {
   return (
     <div>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="/">Navbar</a>
+  <a class="navbar-brand" href="/">
+            <img src={Sylogo} alt="Logo" width="80" height="80" class="d-inline-block align-text-top" />
+            {/* <span class="navbar-brand mb-1 h1"> Synapse</span> */}
+          </a>
+    <a class="navbar-brand" href="/">Re-Quest 2022</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>

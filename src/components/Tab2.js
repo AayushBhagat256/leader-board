@@ -31,7 +31,7 @@ function Tab2() {
         Re-Quest     Leaderboard
       </div>
       <div className="headingname">
-        RED HOUSE
+        Glyffindor
       </div>
       </div>
       <div>

@@ -23,10 +23,10 @@ function App() {
       <Sponcers/>
         <div className="paths">
           <div className="path1 mx-1"><Link to="/tab1"><button type="button" class="btn btn-dark">All Teams</button></Link></div>
-          <div className="path2 mx-1"><Link to="/tab2"><button type="button" class="btn btn-dark">House 1</button></Link></div>
-          <div className="path3 mx-1"><Link to="/tab3"><button type="button" class="btn btn-dark">House 2</button></Link></div>
-          <div className="path4 mx-1"><Link to="/tab4"><button type="button" class="btn btn-dark">House 3</button></Link></div>
-          <div className="path5 mx-1"><Link to="/tab5"><button type="button" class="btn btn-dark">House 4</button></Link></div>
+          <div className="path2 mx-1"><Link to="/tab2"><button type="button" class="btn btn-dark" id='red'>Glyffindor</button></Link></div>
+          <div className="path3 mx-1"><Link to="/tab3"><button type="button" class="btn btn-dark" id='blue'>Rauenclaw</button></Link></div>
+          <div className="path4 mx-1"><Link to="/tab4"><button type="button" class="btn btn-dark" id='green'>Slytherin</button></Link></div>
+          <div className="path5 mx-1"><Link to="/tab5"><button type="button" class="btn btn-dark" id='yellow'>Hufflepuff</button></Link></div>
         
       </div>
       <div className="containerr1 mx-0">

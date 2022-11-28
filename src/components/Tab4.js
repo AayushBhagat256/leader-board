@@ -32,7 +32,7 @@ function Tab4() {
         Re-Quest     Leaderboard
       </div>
       <div className="headingname">
-        GREEN HOUSE
+        Slytherin
       </div>
       </div>
       <div className="container">

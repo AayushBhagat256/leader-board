@@ -19,3 +19,16 @@
   font-family: 'Harry Potter', sans-serif;
   /* font-size: 1.5em; */
 }
+
+#red:hover{
+  background-color: red;
+}
+#blue:hover{
+  background-color: blue;
+}
+#yellow:hover{
+  background-color: gold;
+}
+#green:hover{
+  background-color: green;
+}
