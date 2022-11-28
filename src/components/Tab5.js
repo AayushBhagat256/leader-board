@@ -9,7 +9,7 @@ function Tab5() {
         const response = axios
         // .get("https://sheetdb.io/api/v1/3dlgpf3zhlol7?sheet=Teamwise_Leaderboard")
         .get(
-          "https://sheets.googleapis.com/v4/spreadsheets/13oRnrhJDqu1PfymUW13Ibq_b-AVHP2gr3l5RwSPy7VM/values/Team_4/?key=AIzaSyBojSmY8Zvgy8Qw927mK14NHkDy-XJr9iw"
+          "https://sheets.googleapis.com/v4/spreadsheets/13oRnrhJDqu1PfymUW13Ibq_b-AVHP2gr3l5RwSPy7VM/values/Team_4!A1:C9/?key=AIzaSyBojSmY8Zvgy8Qw927mK14NHkDy-XJr9iw"
         )
         .then((response) => {
           console.log(response.data);
