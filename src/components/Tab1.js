@@ -39,7 +39,7 @@ function Tab1() {
         Re-Quest     Leaderboard
       </div>
       <div className="headingname">
-        RED HOUSE
+        House Leader-Board
       </div>
       </div>
       

@@ -11,18 +11,18 @@ function Navbar() {
             <img src={Sylogo} alt="Logo" width="80" height="80" class="d-inline-block align-text-top" />
             {/* <span class="navbar-brand mb-1 h1"> Synapse</span> */}
           </a>
-    <a class="navbar-brand" href="/">Re-Quest 2022</a>
+    <a class="navbar-brand" id='navbartitle' href="/">Re-Quest </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li class="nav-item">
+        {/* <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="/">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/">Link</a>
-        </li>
+        </li> */}
         {/* <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Dropdown
