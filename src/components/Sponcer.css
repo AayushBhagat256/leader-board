@@ -7,3 +7,27 @@
     align-items: center;
     height: 20vh;
 }
+#sp1{
+    height: 16vh;
+    width: 12vw;
+    /* background: transparent; */
+    background-image: linear-gradient(#CCDEEA,#CCDEEA);
+    border: none;
+}
+#sp2{
+    height: 16vh;
+    width: 12vw;
+    
+}
+#sp3{
+    height: 16vh;
+    width: 12vw;
+    
+}
+.role{
+    text-align: center;
+    /* background-color: red; */
+    width: 12vw;
+    font-family: 'Harry Potter', sans-serif;
+
+}

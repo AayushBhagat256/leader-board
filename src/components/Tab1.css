@@ -36,3 +36,7 @@
     height: 30vh;
     width: 15vw;
 }
+#tab1img{
+    background: transparent;
+    border: none;
+}

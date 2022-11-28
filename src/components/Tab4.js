@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import axios from "axios";
 import './Tab4.css'
-import img from './requestlogo.jpg'
+import img from './logonobg.png'
 
 function Tab4() {
     const[tab4dis,setTab4dis]=useState([])
@@ -26,7 +26,7 @@ function Tab4() {
       {/* this is tab 4 */}
       <div className="top4">
       <div className="imagelogo">
-      <img src={img} alt="Responsive-image" class="img-thumbnail" />
+      <img src={img} alt="Responsive-image" class="img-thumbnail" id='tab4img'/>
       </div>
       <div className="leader">
         Re-Quest     Leaderboard
